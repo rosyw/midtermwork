@@ -33,6 +33,7 @@ with open('report.txt') as file:
         avg ='%.1f'% (all / count)
         avg_lst.append(avg)
     avg_lst.insert(0,0)
+    avg_lst.insert(1,'平均')
     # print(avg_lst)
 
     # 替换60分以下的成绩
