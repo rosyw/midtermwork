@@ -69,26 +69,4 @@ with open('report_new.txt', 'w') as f:
 
 
 
-# def score4every(header,lst):
-#     new_lst = []
-#     for h in lst:
-#         #因为每次添加的都是同一个内存到list中去了,mydict每次写入的时候改变了内存中的value,但是地址不变,即是,创建了一次内存空间,
-#         # 只会不断的改变value了,添加到list中的时候value已经改了。所以需要在for循环里面去每次循环都创建一个空的dict，以保证之前添加过的不会被改变。
-#         dict3 = {}
-#         for k,v in zip(header.keys(),h):
-#             dict3[k] = v
-#         new_lst.append(dict3)
-#     return new_lst
-#
-#
-# dict2 = score4every(dic,array)
-# print(dict2)
-
-
-
-
-
-
-
-
 
